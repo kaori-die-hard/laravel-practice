@@ -13,9 +13,9 @@ use Illuminate\Support\Carbon;
 /**
  * パスワードリセットトークンモデルクラス
  *
- * @property string $email メールアドレス
- * @property string $token トークン
- * @property Carbon|null $created_at 作成日時
+ * @property string $email
+ * @property string $token
+ * @property Carbon|null $created_at
  * @property-read User|null $user
  * @method static PasswordResetTokenFactory factory($count = null, $state = [])
  * @method static Builder<static>|PasswordResetToken newModelQuery()
