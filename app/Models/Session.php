@@ -12,12 +12,12 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 /**
  * セッションモデルクラス
  *
- * @property int $id
- * @property int|null $user_id
- * @property string|null $ip_address
- * @property string|null $user_agent
- * @property string $payload
- * @property int $last_activity
+ * @property int $id ID
+ * @property int|null $user_id ユーザID
+ * @property string|null $ip_address IPアドレス
+ * @property string|null $user_agent ユーザーエージェント
+ * @property string $payload ペイロード
+ * @property int $last_activity 最終アクティビティ
  * @property-read User|null $user
  * @method static SessionFactory factory($count = null, $state = [])
  * @method static Builder<static>|Session newModelQuery()

@@ -16,14 +16,14 @@ use Illuminate\Support\Carbon;
 /**
  * ユーザモデルクラス
  *
- * @property int $id
- * @property string $name
- * @property string $email
- * @property Carbon|null $email_verified_at
- * @property string $password
- * @property string|null $remember_token
- * @property Carbon|null $created_at
- * @property Carbon|null $updated_at
+ * @property int $id ID
+ * @property string $name 名前
+ * @property string $email メールアドレス
+ * @property Carbon|null $email_verified_at メールアドレス検証日時
+ * @property string $password パスワード
+ * @property string|null $remember_token トークン
+ * @property Carbon|null $created_at 作成日時
+ * @property Carbon|null $updated_at 更新日時
  * @property-read DatabaseNotificationCollection<int, DatabaseNotification> $notifications
  * @property-read int|null $notifications_count
  * @property-read PasswordResetToken|null $passwordResetToken
